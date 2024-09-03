@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BEST QUOTES</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="Pins/logo1.png" rel="icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body {
+      background: gray;
+    }
+
+    .navbar {
+      position: sticky;
+      top: 0px;
+
+    }
+
+    .navbar-brand {
+      font-family: arialblack;
+    }
+
+    .container-fluid a img {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    #carouselExample {
+      z-index: -1;
+    }
+
+    .carousel-item {
+      width: 100%;
+      height: 670px;
+    }
+
+    .collapse ul li a {
+      
+      border-radius: 10px;
+      font-family: Medium;
+      font-weight: bold;
+
+    }
+
+    .collapse ul li a:hover {
+      background: linear-gradient(45deg, #e60d31, #cff013);
+      transition: all 1.5s;
+      color: black;
+
+    }
+
+    .d-block {
+      width: 100%;
+      height: 100%;
+    }
+
+    .row {
+      width: 100%;
+      box-sizing: border-box;
+      margin-left: 1px;
+      margin-top: 10px;
+      color: white;
+
+    }
+
+    .col-lg-4 {
+      box-sizing: border-box;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .fw-normal {
+      margin-top: 10px;
+    }
+
+    .col-lg-4 img {
+      transition: all 1.3s;
+    }
+
+    .col-lg-4 h2 {
+      font-family: cursive;
+    }
+
+    .col-lg-4 img:hover {
+      transform: scale(1.1);
+      transition: all 1.3s;
+    }
+
+    .btn {
+      margin-top: 10px;
+      padding: 5px 15px;
+      background: black;
+      transition: all 1.3s;
+
+    }
+
+    .btn:hover {
+      background: white;
+      color: black;
+      transform: scale(1.2);
+      transition: all 1.3s;
+    }
+
+    .featurette {
+      margin-top: 50px;
+    }
+    
+
+    .col-md-7 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      box-sizing: border-box;
+      padding: 20px;
+    }
+
+    .col-md-5 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      box-sizing: border-box;
+      padding: 20px;
+    }
+
+    .font {
+      font-size: 25px;
+      padding: 3px 10px;
+    }
+
+    .font i {
+      transition: all 0.5s;
+    }
+
+    .font i:hover {
+      transform: scale(1.5);
+      transition: all 0.5s;
+    }
+
+    .mar {
+      margin-right: 10px;
+    }
+    h2{
+      font-size:40px;
+      color:black;
+        
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="Pins/logo1.png" />HINDI QUOTES</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link home_margin" aria-current="page" href="http://127.0.0.1:5500/index.html" style=" margin-left:400px;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contect">Contect</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#feture">Feature</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              All Quotes
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/practical/quotes/motivational.html">MOTIVATIONAL</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/practical/quotes/success.html">SUCCESS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/practical/quotes/life.html">LIFE</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/practical/quotes/attitude.html">ATTITUDE</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/practical/quotes/love.html">LOVE</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/practical/quotes/friendship.html">FRIENDSHIP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/practical/quotes/business.html">BUSINESS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/practical/quotes/student.html">STUDENT</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/practical/quotes/romantic.html">ROMANTIC</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Pins/21.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div id="feture" class="row">
+    <div class="col-lg-4">
+      <img src="motivational/m2.jpg" class="bd-placeholder-img rounded-circle" width="200" height="200">
+      <h2 class="fw-normal">MOTIVATIONAL</h2>
+      <p><a class="btn btn-secondary" href="http://127.0.0.1:5500/motivational.html">More »</a></p>
+    </div>
+    <div class="col-lg-4">
+      <img src="success/su5.jpg" class="bd-placeholder-img rounded-circle" width="200" height="200">
+      <h2 class="fw-normal">SUCCESS</h2>
+      <p><a class="btn btn-secondary" href="http://127.0.0.1:5500/success.html">More »</a></p>
+    </div>
+    <div class="col-lg-4">
+      <img src="life/l15.jpg" class="bd-placeholder-img rounded-circle" width="200" height="200">
+      <h2 class="fw-normal">LIFE</h2>
+      <p><a class="btn btn-secondary" href="http://127.0.0.1:5500/life.html">More »</a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="attitude/a24.jpg" class="bd-placeholder-img rounded-circle" width="200" height="200">
+      <h2 class="fw-normal">ATTITUDE</h2>
+      <p><a class="btn btn-secondary" href="http://127.0.0.1:5500/attitude.html">More »</a></p>
+    </div>
+    <div class="col-lg-4">
+      <img src="love/lo16.jpg" class="bd-placeholder-img rounded-circle" width="200" height="200">
+      <h2 class="fw-normal">LOVE</h2>
+      <p><a class="btn btn-secondary" href="http://127.0.0.1:5500/love.html">More »</a></p>
+    </div>
+    <div class="col-lg-4">
+      <img src="friends/f1.jpg" class="bd-placeholder-img rounded-circle" width="200" height="200">
+      <h2 class="fw-normal">FRIENDSHIP</h2>
+      <p><a class="btn btn-secondary" href="http://127.0.0.1:5500/friendship.html">More »</a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="business/b10.jpg" class="bd-placeholder-img rounded-circle" width="200" height="200">
+      <h2 class="fw-normal">BUSINESS</h2>
+      <p><a class="btn btn-secondary" href="http://127.0.0.1:5500/business.html">More »</a></p>
+    </div>
+    <div class="col-lg-4">
+      <img src="student/s14.jpg" class="bd-placeholder-img rounded-circle" width="200" height="200">
+      <h2 class="fw-normal">STUDENT</h2>
+      <p><a class="btn btn-secondary" href="http://127.0.0.1:5500/student.html">More »</a></p>
+    </div>
+    <div class="col-lg-4">
+      <img src="love/lo6.jpg" class="bd-placeholder-img rounded-circle" width="200" height="200">
+      <h2 class="fw-normal">ROMANTIC</h2>
+      <p><a class="btn btn-secondary" href="http://127.0.0.1:5500/romantic.html">More »</a></p>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1 ">बन्दा खुद की नज़र में सही होना चाहिए <br/><br/><b class="text-light"> दुनिया तो साली भगवान से भी दुखी है !</b> </h2>
+         
+     
+    </div>
+    <div class="col-md-5">
+      <img src="life/l18.jpg" class="class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto width="500" height="500" alt="">
+        <title>Placeholder</title>
+    </div>
+  </div>
+  <hr />
+  <div class="row featurette">
+    <div class="col-md-5">
+      <img src="life/l28.jpg" class="class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto width="500" height="500" alt="">
+        <title>Placeholder</title>
+    </div>
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1"> <center><b class="text-danger">  मूर्ख  </b><br/><br/>
+        ज्ञानियों से भी नहीं सिख पाते,<br/><br/> <i class="text-light">और ज्ञानी मूर्खी से भी सीख लेते है..!! </i ></center></h2>
+      
+    </div>
+  </div>
+  <hr />
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">रिश्ता बनाया है तो निभाएंगे भी रोज <br/><br/> <b class="text-light">तुमसे लड़ेंगे भी और तुम्हे मनाएंगे भी। </b></h2>
+      
+    </div>
+    <div class="col-md-5">
+      <img src="love/lo17.jpg" class="class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto width="500" height="500" alt="">
+        <title>Placeholder</title>
+    </div>
+  </div>
+  <hr />
+  <div class="row featurette">
+    <div class="col-md-5">
+      <img src="attitude/a16.jpg" class="class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto width="500" height="500" alt="">
+        <title>Placeholder</title>
+    </div>
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">हम अपनी दुनिया में मस्त रहते है साहब <br/><br/><b class="text-light" > छेड़ना तब ही जब झेलने का दम हो..!!  </b></h2>
+      
+    </div>
+  </div>
+
+  <div class="container " id="contect">
+    <footer id="flex" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <i class="fa-solid fa-book text-dark mar"></i> <span class="mb-3 mb-md-0 text-dark"> BEST HINDI QUOTES
+          WEBSITE</span>
+      </div>
+      <div class="col-md-1 d-flex align-items-center">
+        <i class="fa-solid fa-phone text-dark mar"></i>
+        <span class="mb-3 mb-md-0 text-dark">6394401542</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-dark font" href="https://www.instagram.com/accounts/login/"><i
+              class="fa-brands fa-instagram"></i></a></li>
+        <li class="ms-3"><a class="text-dark font" href="https://x.com/login="><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li class="ms-3"><a class="text-dark font" href="https://www.facebook.com/login.php/"><i
+              class="fa-brands fa-facebook"></i></a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
